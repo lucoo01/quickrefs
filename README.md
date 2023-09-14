@@ -13,6 +13,7 @@
 Ctrl+Shift+G 唤起应用
 ### 快捷键
 F11 切换最大化状态
+Ctrl+K 搜索
 ## License
 
 MIT © [Loen](https://github.com/lucoo01)

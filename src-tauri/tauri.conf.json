@@ -7,7 +7,7 @@
     "withGlobalTauri": true
   },
   "package": {
-    "productName": "W3Cschool Refs",
+    "productName": "W3CschoolRefs",
     "version": "1.0.1"
   },
   "tauri": {
