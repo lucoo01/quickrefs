@@ -1,0 +1,14 @@
+{
+  "name": "src-tauri",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cargo": "cargo"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tauri-apps/plugin-global-shortcut": "^2.0.0-alpha.1"
+  }
+}

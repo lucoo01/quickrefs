@@ -1,0 +1,13 @@
+{
+  "name": "refs",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "tauri": "tauri",
+    "cargo": "cargo"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.4.0"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "build": {
+    "beforeDevCommand": "",
+    "beforeBuildCommand": "",
+    "devPath": "../src",
+    "distDir": "../src",
+    "withGlobalTauri": true
+  },
+  "package": {
+    "productName": "W3Cschool Refs",
+    "version": "1.0.1"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": false,
+      "app": {
+        "all": true
+      },
+      "window": {
+        "all": true
+      },
+      "globalShortcut": {
+        "all": true
+      },
+      "shell": {
+        "all": false,
+        "open": true
+      }
+    },
+    "bundle": {
+      "active": true,
+      "targets": "all",
+      "identifier": "com.tauri.loen",
+      "icon": [
+        "icons/Icon-32.png",
+        "icons/Icon-128.png",
+        "icons/Icon-256.png",
+        "icons/icon.icns",
+        "icons/icon.ico"
+      ],
+      "windows": {
+        "certificateThumbprint": "01000000",
+        "digestAlgorithm": "sha256",
+        "timestampUrl": "http://timestamp.comodoca.com",
+        "wix": {
+          "language": "zh-CN"
+        },
+        "nsis": {
+          "installerIcon": "icons/icon.ico",
+          "languages":["SimpChinese"]
+        }
+      }
+    },
+    "security": {
+      "csp": null
+    },
+    "windows": [
+      {
+        "fullscreen": false,
+        "resizable": true,
+        "title": "W3Cschool速查表",
+        "width": 1200,
+        "height": 800
+      }
+    ]
+  }
+}
